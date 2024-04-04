@@ -1,0 +1,80 @@
+:root{
+    --dark : #222;
+    --white : #eee;
+    --main : #f89b32;
+    --second : #4a75fc ;
+    --warning: #00d;
+    --error: #d00;
+    --success: #0d0;
+}
+
+@font-face{
+    font-family: 'poppins';
+    src: url('../webfonts/Poppins-Regular.woff');
+}
+
+header{
+    background: var(--main);
+    padding: 10px;
+    color:var(--dark);
+    font-family: 'poppins';
+    font-size: 2 rem;
+    font-weight: bold;
+}
+
+.header_{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    padding: 20px;
+    border-bottom: 1px solid var(--main);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+nav a.active {
+    background: var(--white);
+}
+
+/* Sélection du bouton */
+button {
+    /* Couleur de fond */
+    background-color: #3498db;
+    /* Couleur du texte */
+    color: #ffffff;
+    /* Bord arrondi */
+    border-radius: 5px;
+    /* Taille du texte */
+    font-size: 16px;
+    /* Rembourrage interne */
+    padding: 10px 20px;
+    /* Bordure */
+    border: none;
+    /* Style du curseur au survol */
+    cursor: pointer;
+    /* Effet de transition fluide */
+    transition: background-color 0.3s ease;
+}
+
+/* Lorsque le curseur survole le bouton */
+button:hover {
+    /* Changement de couleur de fond */
+    background-color: #2980b9;
+}
+
+
+main h1{
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    font-weight: bold;
+}
+
+.block1_index{  
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
