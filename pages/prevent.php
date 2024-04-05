@@ -14,7 +14,7 @@ include('../config/settings.php');
     <?php include ('../partials/menu.php'); ?>
 
     <main>
-        <p>La prévention c'est important.</p>
+        <p>Ceci est la page Prévention</p>
     </main>
 
 </body>

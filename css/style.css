@@ -8,6 +8,11 @@
     --success: #0d0;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 @font-face{
     font-family: 'poppins';
     src: url('../webfonts/Poppins-Regular.woff');
@@ -77,4 +82,54 @@ main h1{
     display: flex;
     justify-content: center;
 
+}
+
+
+/* --------CHANGEMENT DE PAGE ------- CHANGEMENT DE PAGE -------- CHANGEMENT DE PAGE -------- CHANGEMENT DE PAGE -----------*/
+/* --------------------------------------------------PAGE CONTACT---------------------------------------------------------- */
+
+/* Style général */
+
+.container {
+    width: 50%; /* Largeur du conteneur */
+    margin: 0 auto; /* Centre le conteneur horizontalement */
+    padding: 20px; /* Espacement autour du conteneur */
+    border: 1px solid #ccc; /* Bordure autour du conteneur */
+    border-radius: 10px; /* Coins arrondis du conteneur */
+}
+
+/* Style des éléments du formulaire */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Largeur totale */
+    padding: 10px; /* Espacement interne */
+    margin-bottom: 10px; /* Espacement en bas */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    box-sizing: border-box; /* Inclure la bordure et le padding dans la largeur totale */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur de type pointer */
+    float: right; /* Aligner à droite */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Couleur de fond au survol */
+}
+
+/* Style du titre du formulaire */
+h2 {
+    text-align: center; /* Centrer le texte */
+}
+
+/* Style du conteneur du formulaire */
+.form-container {
+    margin-top: 20px; /* Espacement par rapport au titre */
 }

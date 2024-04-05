@@ -27,13 +27,11 @@ $file = array_pop($tFile);
 
         <a href="index.php" class="<?php if($file == 'index.php') echo 'active'; ?>">Accueil</a>
 
-        <a href="infos.php" class="<?php if($file == 'infos.php') echo 'active'; ?>">Informations</a>
-
         <a href="prevent.php" class="<?php if($file == 'prevent.php') echo 'active'; ?>">Prévention</a>
 
-        <a href="contact.php" class="<?php if($file == 'contact.php') echo 'active'; ?>">Contact</a>
+        <a href="formation.php" class="<?php if($file == 'formation.php') echo 'active'; ?>">Formation</a>       
 
-        <a href="aboutus.php" class="<?php if($file == 'aboutus.php') echo 'active'; ?>">Qui sommes nous ?</a>
+        <a href="contact.php" class="<?php if($file == 'contact.php') echo 'active'; ?>">Contact</a>
 
     </nav>
 
